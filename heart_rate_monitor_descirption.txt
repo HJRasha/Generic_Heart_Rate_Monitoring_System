@@ -1,0 +1,27 @@
+Components: 
+
+1. Heart rate sensor (Particle sensor MAX10305)
+2. Temperature Sensor (Particle sensor MAX10305)
+3. GPS Sensor (NEO-6M GPS Module)
+4. ESP32 Boards (ESP32 thirty pin)
+5. Lora Module (LoRa SX1278)
+6. Momentary switch
+
+
+ESP32 Board 1 =>>>>> 
+ 
+1. Heart Rate Sensor
+2. Temperature Sensor
+3. GPS Module
+4. Lora Transmitter Module
+
+Activity: Sends the Sensors data and the GPS location using the Lora Module to the Board 2.
+
+
+ESP32 Board 2 =>>>>> 
+1. Lora Receiver Module (LoRa SX1278)
+2. Button (momentary Switch)
+
+Activity: Receives the Sensors data and the GPS location using the Lora Module to the Board 2.
+Then the receiver can send data to the database and can display heart rate, temperature and GPS reading near the dashboard. If let say the user's heart rate is below certain values ​​or the user presses the button, an alert + exact location user will come out. If I follow the initial proposal, I plan to make a web app so I can monitor + receive alerts.  If you use thingspeak, you can monitor but alert him just send an email. Email is less efficient because it takes time to detect the user's location.
+

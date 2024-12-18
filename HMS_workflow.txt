@@ -1,0 +1,37 @@
+Need to install following libraries:
+1. SparkFun MAX3010x Pulse and Proximity Sensor Library (https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
+2. LoRa Radio Library (https://github.com/sandeepmistry/arduino-LoRa)
+3. TinyGPS++ Library (https://github.com/mikalhart/TinyGPSPlus)
+4. ESP_Mail_Client Library 
+
+Thinkspeak:
+In order to Monitor the Sensor Data on Thingspeak Server, you first need to Setup the Thingspeak. To set up the Thingspeak Server, visit https://thingspeak.com/. Create an account or simply sign in if you created the account earlier. Then create a new channel. From there you can have  Password & Thingspeak API Key.
+
+SMTP Server Settings:
+Before proceeding you need to know the SMTP server settings of the sender email.
+Gmail SMTP Server Settings
+If you’re using a Gmail account, these are the SMTP Server details:
+
+SMTP Server: smtp.gmail.com
+SMTP username: Complete Gmail address
+SMTP password: Your Gmail password
+SMTP port (TLS): 587
+SMTP port (SSL): 465
+SMTP TLS/SSL required: yes
+Outlook SMTP Server Settings
+For Outlook accounts, these are the SMTP Server settings:
+
+SMTP Server: smtp.office365.com
+SMTP Username: Complete Outlook email address
+SMTP Password: Your Outlook password
+SMTP Port: 587
+SMTP TLS/SSL Required: Yes
+Live or Hotmail SMTP Server Settings
+For Live or Hotmail accounts, these are the SMTP Server settings:
+
+SMTP Server: smtp.live.com
+SMTP Username: Complete Live/Hotmail email address
+SMTP Password: Your Windows Live Hotmail password
+SMTP Port: 587
+SMTP TLS/SSL Required: Yes
+If you’re using another email provider, you need to search for its SMTP Server settings.
